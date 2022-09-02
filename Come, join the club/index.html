@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Navigation menu </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+
+            <ul>
+                <li><a href="xyz1">Home</a></li>
+                <li><a href="xyz2">Messages</a></li>
+                <li><a href="xyz3">Friends</a></li>
+                <li><a href="xyz4">Notifications</a></li>
+
+                <div class="search">
+
+                    <input type="text" placeholder="Search" name="searchbox">
+
+                </div>
+
+            </ul>
+
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="mainclass">
+
+
+            <h4> <u> Join the club - "Che" </u> </h4>
+
+            <form action="backend.php">
+
+                <div>
+
+                    <!-- this is label in form -->
+
+                    <label for="email">
+                        Email : <input type="email" placeholder="Enter email" name="myemail" id="email">
+                    </label>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Password : <input type="password" placeholder="Enter password" name="mypassword">
+
+                </div>
+                <br>
+
+                <div>
+                    Name : <input type="text" placeholder="Enter name" name="myname">
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <!-- this is radio button in form -->
+
+                    Male : <input type="radio" name="mygender">
+                    Female : <input type="radio" name="mygender">
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <!-- this is select in form -->
+
+                    <select>
+
+                        <option value="Marri"> Married </option>
+                        <option value="unmarri"> Unmarried</option>
+
+                    </select>
+
+                </div>
+                <br>
+
+
+
+                Secret number : <input type="number" placeholder="Enter secrete number" name="mysecretnumber">
+                <br>
+                <br>
+                DOB : <input type="date" name="mydate">
+                <br>
+                <br>
+
+
+                <!-- this is textarea in the form -->
+
+                Tell about yourself : <textarea name="mytext"> </textarea>
+                <br>
+                <br>
+
+
+                <!-- this is checkbox in form -->
+
+                <input type="checkbox" name="mycourses"> : The information provided by me is authentic.
+
+                <br>
+                <br>
+
+                <!-- this is submit and reset in form -->
+
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+                <br>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, labore iste assumenda repudiandae obcaecati
+            commodi optio veritatis sint praesentium, illum atque aperiam voluptas. Eius accusamus sequi cumque quas
+            fugit error a ea nisi asperiores beatae unde temporibus, nemo iusto?
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
